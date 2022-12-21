@@ -55,9 +55,9 @@ Vagrant.configure("2") do |config|
         
 #We set the Server machine with the box that we want, I will be using debian/buster64 but you can choose any linux box in https://app.vagrantup.com/boxes/search
 
-  config.vm.define "servidor" do |subconfig|
+  config.vm.define "server" do |subconfig|
        subconfig.vm.box = "debian/buster64"
-        subconfig.vm.hostname = "servidor"
+        subconfig.vm.hostname = "server"
         
 #We set the network in our machine, we will set a private network with the IP adress that we prefer
         subconfig.vm.network :private_network, ip: "192.168.100.5",
@@ -70,7 +70,7 @@ Vagrant.configure("2") do |config|
 	subconfig.vm.provider :virtualbox do |vb|
         
 #We set an especific name for our Server machine
-		vb.name = "servidor"
+		vb.name = "server"
 		vb.gui = false
 	end
 
@@ -136,5 +136,12 @@ end
 $ vagrant up
 ```
 <p>The Server will delay several time to init because it has to download and transfer the needed files</p>
+<p>When it finishes, we can vagrant up our clients.</p>
 
+```
+$ vagrant up client1
+```
+	
+	<p>In this case I ounly launched <code>client1</code>, but you can also launch <code>client2,client3...</code>. <b>(The number of clients that we can launch is set up on top of the vagrant file "num_cli = x ")</b>
+<p>When the machine sets up, it will pxe boot with an installer of the OS that we set up in the shell of our <b>Vagrantfile</b>
 </div>
