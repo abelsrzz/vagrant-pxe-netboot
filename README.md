@@ -8,8 +8,6 @@
 </div>
 
 
-
-
 <div id="necesitamos">
 <h3>What we will need</h3>
 <p>If you don't have the needed tools, get them with the next comands</p>
@@ -17,7 +15,7 @@
   ```
 $ sudo apt update && sudo apt upgrade && sudo apt install vagrant && sudo apt install virtualbox
   ```
- </br></br>
+
 <p>If you have issues installing Vagrant and Virtualbox at the same time, you will need to execute the following lines</p>
         
   ```
@@ -25,7 +23,6 @@ $ sudo apt update && sudo apt upgrade && sudo apt install vagrant
 $ wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc 
 $ sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
 ```
-
 
 <div id="explicacion">
 <h3>Creating Vagrantfile</h3>
