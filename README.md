@@ -1,9 +1,9 @@
 <h3 align="center">PXE Vagrant Netboot</h3>
 
-https://ibb.co/NtggLsR
-
-
-   <img src="https://ibb.co/NtggLsR" alt="Logo" width="80" height="80">
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
    
    
    
