@@ -2,7 +2,7 @@ This copy is from 21/12/2022, the links may not work in the future.
 
 Kali =>
 
-	wget http://http.kali.org/kali/dists/kali-rolling/main/installer-amd64/current/images/netboot/netboot.tar.gz
+	http://http.kali.org/kali/dists/kali-rolling/main/installer-amd64/current/images/netboot/netboot.tar.gz
 
 Debian =>
 
