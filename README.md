@@ -27,7 +27,7 @@ $ sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.g
 <div id="explicacion">
 <h3>Creating Vagrantfile</h3>
         
-<p>We will need to create a folder where we will store our <b>Vagrantfile</b> and everything we will want to sync with che virtual machine.</p>
+<p>We will need to create a folder where we will store our <b>Vagrantfile</b> and everything we will want to sync with the virtual machine.</p>
 
 ```
 $ mkdir PXEBOOTvagrant && cd PXEBOOTvagrant
