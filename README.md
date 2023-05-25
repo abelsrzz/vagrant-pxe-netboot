@@ -4,7 +4,7 @@
 </div>
 
 <div id="inicio">
-        <p>A Vagrantfile that provides an enviroment for PXE boot, to solve problems with OS deployment with tools like clonezilla. </p>
+        <p>A Vagrantfile that provides an enviroment for PXE boot, to solve problems with OS deployment. </p>
 </div>
 
 
