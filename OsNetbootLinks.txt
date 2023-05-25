@@ -6,7 +6,7 @@ Kali =>
 
 Debian =>
 
-	http://ftp.debian.org/debian/dists/stretch/main/installer-amd64/current/images/netboot/netboot.tar.gz
+	https://deb.debian.org/debian/dists/bullseye/main/installer-amd64/current/images/netboot/netboot.tar.gz
 
 Ubuntu =>
 
