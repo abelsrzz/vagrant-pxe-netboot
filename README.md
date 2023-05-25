@@ -56,7 +56,7 @@ Vagrant.configure("2") do |config|
        subconfig.vm.box = "debian/buster64"
         subconfig.vm.hostname = "server"
         
-#We set the network in our machine, we will set a private network with the IP adress that we prefer
+#We set the network in our machine, we will set a private network with the IP address that we prefer
         subconfig.vm.network :private_network, ip: "192.168.100.5",
 
 #We set a second adapter with a intnet of virtualbox
