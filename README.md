@@ -139,7 +139,7 @@ $ vagrant up
 $ vagrant up client1
 ```
 	
-<p>In this case I ounly launched <code>client1</code>, but you can also launch <code>client2,client3...</code>. <b>(The number of clients that we can launch is set up on top of the vagrant file "num_cli = x ")</b>
+<p>In this case I only launched <code>client1</code>, but you can also launch <code>client2,client3...</code>. <b>(The number of clients that we can launch is set up on top of the vagrant file "num_cli = x ")</b>
 <p>When the machine sets up, it will pxe boot with an installer of the OS that we set up in the provision of the Server in our <b>Vagrantfile</b>
 If the OS that you need inst in our file, you can easily search "exampleOS" netboot and get the link that you need
 </div>
